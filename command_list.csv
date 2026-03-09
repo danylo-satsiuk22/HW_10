@@ -1,0 +1,39 @@
+    1  git config --global user.name "danylo-satsiuk22"
+    2  git config --global user.email "danikua2222@gmail.com"
+    3  git config --global user.name "danylo-satsiuk22"
+    4  git config --global user.email "danikua2222@gmail.com"
+    5  git config --list
+    6  git clone https://github.com/danylo-satsiuk22/HW_10.git
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  nano .gitignore
+   10  git status
+   11  git commit -m "Added gitignore rule for text_ignore.txt"
+   12  git add .
+   13  git commit -m "Added gitignore rule for text_ignore.txt"
+   14  main_test.txt
+   15  git add
+   16  touch main_test.txt
+   17  git add .
+   18  git commit -m "Added main_test.txt"
+   19  git push
+   20  git branch <develop>
+   21  git checkout develop
+   22  git branch
+   23  git branch develop
+   24  git checkout develop
+   25  git branch
+   26  touch develop_test.txt
+   27  git add .
+   28  git commit -m "Added develop_test.txt"
+   29  nano develop_test.txt
+   30  git status
+   31  git status
+   32  git add .
+   33  git commit -m "Updated develop_test.txt"
+   34  git checkout main
+   35  git merge develop
+   36  git log
+   37  q
+   38  git log
+   39  history > command_list.csv
